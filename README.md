@@ -1,10 +1,10 @@
-# tracing_check
+# tracing_checks
 
-[![Crates.io](https://img.shields.io/crates/v/tracing_check.svg)](https://crates.io/crates/tracing_check)
-[![Documentation](https://docs.rs/tracing_check/badge.svg)](https://docs.rs/tracing_check)
+[![Crates.io](https://img.shields.io/crates/v/tracing_checks.svg)](https://crates.io/crates/tracing_checks)
+[![Documentation](https://docs.rs/tracing_checks/badge.svg)](https://docs.rs/tracing_checks)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-A comprehensive RPC health check and validation library for distributed systems. Designed for microservices architectures, `tracing_check` provides robust connectivity verification, endpoint validation, and service discovery health monitoring.
+A comprehensive RPC health check and validation library for distributed systems. Designed for microservices architectures, `tracing_checks` provides robust connectivity verification, endpoint validation, and service discovery health monitoring.
 
 ## Features
 
@@ -20,13 +20,13 @@ Add this to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-tracing_check = "0.1.5"
+tracing_checks = "0.1.5"
 ```
 
 ## Quick Start
 
 ```rust
-use tracing_check::{RpcChecker, CheckConfig, HealthStatus};
+use tracing_checks::{RpcChecker, CheckConfig, HealthStatus};
 
 #[tokio::main]
 async fn main() {
@@ -44,7 +44,7 @@ async fn main() {
 ## Configuration
 
 ```rust
-use tracing_check::{CheckConfig, RetryPolicy};
+use tracing_checks::{CheckConfig, RetryPolicy};
 
 let config = CheckConfig::builder()
     .timeout(std::time::Duration::from_secs(5))
@@ -64,9 +64,9 @@ let config = CheckConfig::builder()
 
 ## Links
 
-- [Repository](https://github.com/gelstend/tracing_check)
-- [Documentation](https://docs.rs/tracing_check)
-- [Crates.io](https://crates.io/crates/tracing_check)
+- [Repository](https://github.com/gelstend/tracing_checks)
+- [Documentation](https://docs.rs/tracing_checks)
+- [Crates.io](https://crates.io/crates/tracing_checks)
 
 ## License
 
