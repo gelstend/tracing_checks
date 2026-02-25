@@ -1,12 +1,12 @@
 [package]
-name = "tracing_check"
+name = "tracing_checks"
 version = "0.1.5"
 edition = "2021"
 description = "A comprehensive health check and validation library for distributed systems"
 readme = "README.md"
 license = "MIT"
-repository = "https://github.com/gelstend/tracing_check"
-homepage = "https://github.com/gelstend/tracing_check"
+repository = "https://github.com/gelstend/tracing_checks"
+homepage = "https://github.com/gelstend/tracing_checks"
 keywords = ["rpc", "health-check", "validation", "distributed-systems"]
 categories = ["network-programming", "development-tools"]
 authors = ["dayago8466@pazuric.com"]
